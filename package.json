@@ -1,0 +1,37 @@
+{
+  "name": "cv-online",
+  "version": "0.0.1",
+  "description": "My online CV",
+  "private": true,
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://"
+  },
+  "author": "Nath PATRY",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postcss": "^8.4.29",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
