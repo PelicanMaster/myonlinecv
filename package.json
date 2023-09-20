@@ -5,8 +5,9 @@
   "private": true,
   "main": "src/index.tsx",
   "scripts": {
-    "test": "jest",
-    "start": "webpack serve"
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
