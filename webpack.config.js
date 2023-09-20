@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = (env) => ({
@@ -6,6 +7,7 @@ module.exports = (env) => ({
   devtool: env.WEBPACK_SERVE ? "eval-cheap-source-map" : "source-map",
   output: {
     path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
@@ -27,5 +29,9 @@ module.exports = (env) => ({
     new HtmlWebpackPlugin({
       title: "My online CV",
     }),
-  ],
+    !env.WEBPACK_SERVE &&
+      new CopyPlugin({
+        patterns: ["./_redirects"],
+      }),
+  ].filter(Boolean),
 });
