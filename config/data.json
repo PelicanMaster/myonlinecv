@@ -1,0 +1,39 @@
+{
+  "navigation": [
+    {
+      "title": "💼 Experiences",
+      "children": [
+        {
+          "title": "👉 2020 ➡️ Present: Fleetback",
+          "description": "📍 Belval, Luxembourg",
+          "content": "I am currently working on a web application that aims to digitise the processes of car dealerships to facilitate the customer journey. They can view media about their car and choose what to accept or not. I am also working on a physical kiosk that allows customers to drop off and pick up their keys without any contact with the dealership staff."
+        },
+        {
+          "title": "👉 2018 ➡️ 2020: Carrefour",
+          "description": "📍 Mondeville, France",
+          "content": "..."
+        },
+        {
+          "title": "👉 2017 ➡️ 2018: Partelya Consulting",
+          "description": "📍 Colombelles, France",
+          "content": "..."
+        },
+        {
+          "title": "👉 2018: ISPN",
+          "description": "📍 Caen, France",
+          "content": "..."
+        },
+        {
+          "title": "👉 2013 ➡️ 2017: SRCI",
+          "description": "📍 Colombelles, France",
+          "content": "..."
+        },
+        {
+          "title": "👉 2013: TACT Factory",
+          "description": "📍 Rennes, France",
+          "content": "..."
+        }
+      ]
+    }
+  ]
+}

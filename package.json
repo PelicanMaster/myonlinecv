@@ -16,8 +16,12 @@
   "author": "Nath PATRY",
   "license": "MIT",
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@heroicons/react": "^2.0.18",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
