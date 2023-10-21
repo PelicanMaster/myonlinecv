@@ -4,34 +4,98 @@
       "title": "💼 Experiences",
       "children": [
         {
-          "title": "👉 2020 ➡️ Present: Fleetback",
+          "title": "2020 ➡️ Present: Fleetback",
           "description": "📍 Belval, Luxembourg",
           "content": "I am currently working on a web application that aims to digitise the processes of car dealerships to facilitate the customer journey. They can view media about their car and choose what to accept or not. I am also working on a physical kiosk that allows customers to drop off and pick up their keys without any contact with the dealership staff."
         },
         {
-          "title": "👉 2018 ➡️ 2020: Carrefour",
+          "title": "2018 ➡️ 2020: Carrefour",
           "description": "📍 Mondeville, France",
           "content": "..."
         },
         {
-          "title": "👉 2017 ➡️ 2018: Partelya Consulting",
+          "title": "2017 ➡️ 2018: Partelya Consulting",
           "description": "📍 Colombelles, France",
           "content": "..."
         },
         {
-          "title": "👉 2018: ISPN",
+          "title": "2018: ISPN",
           "description": "📍 Caen, France",
           "content": "..."
         },
         {
-          "title": "👉 2013 ➡️ 2017: SRCI",
+          "title": "2013 ➡️ 2017: SRCI",
           "description": "📍 Colombelles, France",
           "content": "..."
         },
         {
-          "title": "👉 2013: TACT Factory",
+          "title": "2013: TACT Factory",
           "description": "📍 Rennes, France",
           "content": "..."
+        }
+      ]
+    },
+    {
+      "title": "📚 Education",
+      "children": [
+        {
+          "title": "2013 ➡️ 2014: Licence professionnelle MCA",
+          "description": "📍 Caen, France"
+        },
+        {
+          "title": "2011 ➡️ 2013: DUT Informatique",
+          "description": "📍 Laval, France"
+        }
+      ]
+    },
+    {
+      "title": "📟 Technologies",
+      "children": [
+        {
+          "title": "💻 Web",
+          "children": [
+            {
+              "title": "HTML",
+              "customIcon": "html"
+            },
+            {
+              "title": "CSS",
+              "customIcon": "css",
+              "description": "SASS, LESS, CSS3"
+            },
+            {
+              "title": "JavaScript",
+              "customIcon": "javascript",
+              "description": "ES6, TypeScript"
+            },
+            {
+              "title": "React",
+              "customIcon": "react"
+            },
+            {
+              "title": "Redux",
+              "customIcon": "redux",
+              "description": "Thunk, Saga"
+            },
+            {
+              "title": "Node.js",
+              "customIcon": "node",
+              "description": "Express.js, Sequelize"
+            }
+          ]
+        },
+        {
+          "title": "🏗️ Building tools",
+          "children": [
+            {
+              "title": "Webpack",
+              "customIcon": "webpack"
+            },
+            {
+              "title": "Babel",
+              "customIcon": "babel"
+            }
+          ]
         }
       ]
     }
