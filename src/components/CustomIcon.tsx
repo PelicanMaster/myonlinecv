@@ -14,7 +14,7 @@ export const ICONS = {
   webpack: SiWebpack
 };
 
-type CustomIconProps = {
+export type CustomIconProps = {
   type: keyof typeof ICONS;
 } & React.ComponentPropsWithoutRef<IconType>;
 
