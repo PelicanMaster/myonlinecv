@@ -4,31 +4,37 @@
       "title": "💼 Experiences",
       "children": [
         {
+          "hash": "fleetback",
           "title": "2020 ➡️ Present: Fleetback",
           "description": "📍 Belval, Luxembourg",
           "content": "# Summary\nDigitalise the processes of car dealerships to facilitate the customer journey through a web application and a physical terminal that allows customers to drop off and pick up their keys without any contact with the dealership staff.\n\nI led the refactoring of the application and enforced best practices to improve the processes in place. I also built the front-end stack for the terminal, using the latest technologies while relying on reliable libraries such as React or Webpack.\n# Links\n[Fleetback](https://fleetback.com)"
         },
         {
+          "hash": "carrefour",
           "title": "2018 ➡️ 2020: Carrefour",
           "description": "📍 Mondeville, France",
           "content": "# Summary\nA web application based around a map showing the concurrency of Carrefour, aiming to gather multiple tools such as isochrones, filters or reverse-geocoding. I started this project from scratch using a full Javascript stack, based on NodeJS for the backend server and React/Redux for the frontend. I also set up a full CI/CD workflow for this project, using the Atlassian's tools Jira and BitBucket, Jenkins, Ansible and Docker.\n# Links\n[Carrefour](https://www.carrefour.com/)"
         },
         {
+          "hash": "partelya",
           "title": "2017 ➡️ 2018: Partelya Consulting",
           "description": "📍 Colombelles, France",
           "content": "# Summary\nI started as a front developer on an application similar to Meetup, named Café to reinforce the team and speed up its development aiming banking institutions. Web and mobile application were based on AngularJS while the backend was made with NodeJS. Then I became the leader on this project to manage the full-stack of it.\n# Links\n[Partelya](https://partelya.com/)"
         },
         {
+          "hash": "ispn",
           "title": "2018: ISPN",
           "description": "📍 Caen, France",
           "content": "# Summary\nWhile working at Partelya Consulting, I taught JavaScript in this school to beginners and young students or older people who decided to change their career guidance.\n# Links\n[ISPN](https://www.ispn.fr/fr/poles/titres-professionnels/bac-3-designer-web-concepteur-designer-ui)"
         },
         {
+          "hash": "srci",
           "title": "2013 ➡️ 2017: SRCI",
           "description": "📍 Colombelles, France",
           "content": "# Summary\nI took part of the conception and the development of a modular, on-premise, website. The backend was written in C# and the frontend ran with KnockoutJS. I also had to write a lot of scripts in various languages (Python, Batch or PowerShell) and I was involved on multiple projects such as an OCR, client-side websocket server, or an iOS application wrote with Objective-C.\n# Links\n[SRCI](https://solutions.srci.fr/)"
         },
         {
+          "hash": "tactfactory",
           "title": "2013: TACT Factory",
           "description": "📍 Rennes, France",
           "content": "# Summary\nI worked as an intern on an Android application. I took part of the  the development of ePack Hygiene, an application for the catering sector which aims to digitalise health and safety management plans for food. I mainly worked on the initialization process, with the splashscreen and licensing information validation.\n# Links\n[TACT Factory](https://www.linkedin.com/company/tactfactory/about/)\n\n[ePack Hygiène](https://epack-hygiene.fr/)"
@@ -39,11 +45,13 @@
       "title": "📚 Education",
       "children": [
         {
+          "hash": "caen-university",
           "title": "2013 ➡️ 2014: BS in IT",
           "description": "📍 Caen, France",
           "content": "# Summary\nI graduated my Bachelor of Science degree (in French, licence profesionnelle) studying microcircuits, banking cards and applications (MCA) while working for [SRCI](#srci).\n# Links\n[Caen University](https://welcome.unicaen.fr/)\n\n[Caen IUT](https://iut-grand-ouest-normandie.unicaen.fr)"
         },
         {
+          "hash": "laval-iut",
           "title": "2011 ➡️ 2013: BTEC in IT",
           "description": "📍 Laval, France",
           "content": "# Summary\nI graduated my BTEC degree in information technology (in French, DUT Informatique).\n# Links\n[Laval IUT](https://iut-laval.univ-lemans.fr/fr/index.html)"

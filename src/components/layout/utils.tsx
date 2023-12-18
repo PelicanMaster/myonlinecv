@@ -5,6 +5,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import CustomIcon, { ICONS } from "../CustomIcon";
 
 export type MenuItem = {
+  hash: string,
   title: string;
 } & ({
   content?: string,

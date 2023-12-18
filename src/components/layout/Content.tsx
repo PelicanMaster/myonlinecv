@@ -29,7 +29,10 @@ const Content: React.FC<PropsWithChildren<ContentProps>> =
           <Markdown
             components={{
               "h1": ({ children }) => <h1 className="text-2xl font-bold">{children}</h1>,
-              "a": ({ href, children }) => <a href={href} target="_blank" className="underline text-blue-300">{children}</a>,
+              "a": ({ href, children }) => {
+                const target = href?.startsWith('#') ? undefined : '_blank';
+                return (<a href={href} target={target} className="underline text-blue-300">{children}</a>)
+              },
               "p": ({ children }) => <p className="my-2">{children}</p>,
             }}
           >{content}</Markdown>
