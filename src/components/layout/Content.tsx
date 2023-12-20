@@ -32,6 +32,7 @@ const Content: React.FC<PropsWithChildren<ContentProps>> =
                           return (<a href={href} target={target} className="underline text-blue-300">{children}</a>);
                       },
                       'p': ({ children }) => <p className="my-2">{children}</p>,
+                      'code': ({ children }) => <code className="block bg-black text-white p-4 rounded-md">{children}</code>,
                   }}
               >{content}</Markdown>
           </div>

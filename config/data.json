@@ -67,13 +67,15 @@
             {
               "hash": "html",
               "title": "HTML",
-              "customIcon": "html"
+              "customIcon": "html",
+              "content": "# Summary\nI've been using HTML since the beggining of my career, following the standards as they are released. I have been using the latest features of HTML5 such as the canvas or the video tag. This whole website uses HTML5.\n\n# Example\n\n```<!doctype html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>My online CV</title>\n\t\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n\t\t<script defer=\"defer\" src=\"main.js\"></script>\n\t</head>\n\t<body></body>\n</html>\n```"
             },
             {
               "hash": "css",
               "title": "CSS",
               "customIcon": "css",
-              "description": "SASS, LESS, CSS3"
+              "description": "SASS, LESS, CSS3",
+              "content": "# Summary\nI've been using CSS since the beggining of my career. I used [SASS](https://sass-lang.com/) while working at [SRCI](#srci). Since then I learned [LESS](https://lesscss.org/) at [Carrefour](#carrefour). I have been using the latest features of CSS3 such as the flexbox or the grid layout. Finally, I turned myself to CSS frameworks and especially [tailwind](https://tailwindcss.com/) which I use in this website.\n\n# Example\n\n```\nbody {\n\tbackground-color: #fff;\n\tcolor: #000;\n\tfont-family: sans-serif;\n\tfont-size: 1rem;\n\tline-height: 1.5;\n\tmargin: 0;\n\tpadding: 0;\n}\n```"
             },
             {
               "hash": "javascript",
