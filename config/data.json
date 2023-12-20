@@ -65,29 +65,35 @@
           "title": "💻 Web",
           "children": [
             {
+              "hash": "html",
               "title": "HTML",
               "customIcon": "html"
             },
             {
+              "hash": "css",
               "title": "CSS",
               "customIcon": "css",
               "description": "SASS, LESS, CSS3"
             },
             {
+              "hash": "javascript",
               "title": "JavaScript",
               "customIcon": "javascript",
               "description": "ES6, TypeScript"
             },
             {
+              "hash": "react",
               "title": "React",
               "customIcon": "react"
             },
             {
+              "hash": "redux",
               "title": "Redux",
               "customIcon": "redux",
               "description": "Thunk, Saga"
             },
             {
+              "hash": "nodejs",
               "title": "Node.js",
               "customIcon": "node",
               "description": "Express.js, Sequelize"
@@ -98,10 +104,12 @@
           "title": "🏗️ Building tools",
           "children": [
             {
+              "hash": "webpack",
               "title": "Webpack",
               "customIcon": "webpack"
             },
             {
+              "hash": "babel",
               "title": "Babel",
               "customIcon": "babel"
             }

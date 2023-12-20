@@ -7,12 +7,17 @@ import { MenuItem } from './components/layout/utils';
 import Navigation from './components/layout/Navigation';
 import { CustomIconProps } from './components/CustomIcon';
 
-const findItemByHash = (hash: string) => {
+const findItemByHash = (hash: string, items: Array<MenuItem>) => {
   let child: MenuItem | undefined;
 
   if (hash) {
-    data.navigation.find(({ children }) => {
-      child = children.find(item => 'hash' in item ? item.hash === hash : false) as MenuItem;
+    items.find(item => {
+      if ('children' in item) {
+        child = findItemByHash(hash, item.children);
+      } else if (item.hash === hash) {
+          child = item;
+      }
+
       return child;
     });
   }
@@ -21,22 +26,27 @@ const findItemByHash = (hash: string) => {
 }
 
 const getItem = () => {
-  const { hash } = window.location;
-  return findItemByHash(hash.replace('#', '')) ?? data.navigation[0].children[0];
+  const hash = window.location.hash.replace('#', '');
+  return findItemByHash(hash.replace('#', ''), data.navigation as Array<MenuItem>) ?? data.navigation[0].children[0];
 };
 
 const App = () => {
   const [item, setItem] = React.useState(getItem());
 
   const handleItemClick = (item: MenuItem) => {
-    window.location.hash = item.hash;
+    if (item.hash) {
+      window.location.hash = item.hash;
+    } else {
+      window.location.hash = '';
+    }
+
     setItem(item);
   }
 
   React.useLayoutEffect(() => {
     const callback = () => setItem(getItem());
     window.addEventListener('hashchange', callback);
-    () => window.removeEventListener('hashchange', callback);
+    return () => window.removeEventListener('hashchange', callback);
   }, []);
 
   return (
